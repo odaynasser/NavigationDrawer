@@ -1,0 +1,15 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+        <AutoCompleteTextView
+            android:id="@+id/countries_autoComplete"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:padding="10dp"
+            android:textColor="#1C1C1C"
+            android:hint="@string/countries_list" />
+
+
+</TableLayout>
